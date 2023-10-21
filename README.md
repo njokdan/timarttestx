@@ -13,7 +13,7 @@ Create a MySQL database and update the database configuration in the models/inde
 Run the command npm start to start the server.
 Open a web browser and navigate to http://localhost:3000/graphql to access the GraphQL playground.
 Use the GraphQL queries and mutations to create a new user, retrieve user information by ID, create a new order for a user, and retrieve a user's orders.
-GraphQL Queries and Mutations:
+GraphQL Queries and Mutations: \n
 To create a new user:
 
 
