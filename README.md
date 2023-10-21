@@ -17,7 +17,7 @@ Here are the instructions for running the Node.js application that exposes Graph
 GraphQL Queries and Mutations:  
 To create a new user:  
 
-
+<script>
 mutation {  
   createUser(input: { name: "John Doe", email: "johndoe@example.com" }) {  
     id  
@@ -25,8 +25,10 @@ mutation {
     email  
   }  
 }  
-  
+</script>
+
 To retrieve user information by ID:  
+<script>
 query {  
   user(id: 1) {  
     id  
@@ -39,8 +41,10 @@ query {
     }  
   }  
 }  
+</script>
 
 To create a new order for a user:  
+<script>
 mutation {  
   createOrder(input: { date: "2023-10-20", amount: 100.0, userId: 1 }) {  
     id  
@@ -53,9 +57,10 @@ mutation {
     }  
   }  
 }  
-  
+</script>  
 
 To retrieve a user's orders:  
+<script>
 query {  
   orders(userId: 1) {  
     id  
@@ -68,7 +73,7 @@ query {
     }  
   }  
 }  
-  
+</script>  
 
 Note: Replace the user ID and order details with your own values.  
 
